@@ -10,7 +10,7 @@ process.on("uncaughtException", function(e) {
 var requiredArgs = ['serviceHost', 'servicePort', 'proxyPort'],
     missing = [];
 
-cmd.version('1.0.0')
+cmd.version('1.0.1')
     .description('Provides a simple tcp service port proxy')
     .option('-h, --serviceHost [host]', 'Local service host name')
     .option('-s, --servicePort [port]', 'Local service port')
