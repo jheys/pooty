@@ -1,0 +1,18 @@
+{
+  "name": "pooty",
+  "version": "1.0.0",
+  "description": "A simple TCP proxy",
+  "main": "pooty.js",
+  "bin": {
+    "pooty": "pooty.js"
+  },
+  "keywords": [
+    "tcp",
+    "proxy"
+  ],
+  "author": "Jim Heys <jheys@swerv.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}
